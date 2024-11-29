@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "389794134080",
+    "project_id": "acnesolver-184be",
+    "storage_bucket": "acnesolver-184be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389794134080:android:1013fb51ce4ee8562fc7a5",
+        "android_client_info": {
+          "package_name": "com.mycompany.acnesolver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCckGnyxq1rd_sIxp00fpehEYsW-JufdCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
