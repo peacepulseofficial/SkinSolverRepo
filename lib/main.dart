@@ -11,10 +11,6 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import 'flutter_flow/flutter_flow_util.dart';
 import 'flutter_flow/revenue_cat_util.dart' as revenue_cat;
 
-// Import the Adjust SDK
-import 'package:adjust_sdk/adjust.dart';
-import 'package:adjust_sdk/adjust_config.dart';
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   GoRouter.optionURLReflectsImperativeAPIs = true;
@@ -32,13 +28,6 @@ void main() async {
     "",
     loadDataAfterLaunch: true,
   );
-
-  // Initialize the Adjust SDK with the provided token
-  AdjustConfig config = AdjustConfig(
-    '8ahbzi6pywlc', // Adjust app token
-    AdjustEnvironment.sandbox, // Use AdjustEnvironment.production for production
-  );
-  Adjust.initSdk(config);
 
   runApp(ChangeNotifierProvider(
     create: (context) => appState,
