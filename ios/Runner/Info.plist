@@ -57,7 +57,8 @@
     <string>In order to scan your skin to analyze, please allow access to camera.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
     <string>In order to scan your skin to analyze, please allow access to photo library.</string>
-
+	<key>NSUserTrackingUsageDescription</key>
+    <string>Please allow us to use your device data to attribute installs</string>
 
 
 	<key>UILaunchStoryboardName</key>
