@@ -29,6 +29,7 @@ dependencies:
   rxdart: 0.27.7
   shared_preferences: 2.3.2
   stream_transform: ^2.0.0 # Added missing dependency
+  from_css_color: ^2.0.0 # Added missing dependency
   url_launcher: 6.3.0
   cupertino_icons: ^1.0.0
 
