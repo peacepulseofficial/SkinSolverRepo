@@ -284,8 +284,20 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "iregexp",
+      "rootUri": "file:///C:/Users/Hamza/AppData/Local/Pub/Cache/hosted/pub.dev/iregexp-0.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "json_annotation",
       "rootUri": "file:///C:/Users/Hamza/AppData/Local/Pub/Cache/hosted/pub.dev/json_annotation-4.9.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "json_path",
+      "rootUri": "file:///C:/Users/Hamza/AppData/Local/Pub/Cache/hosted/pub.dev/json_path-0.7.4",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -324,6 +336,12 @@
       "rootUri": "file:///C:/Users/Hamza/AppData/Local/Pub/Cache/hosted/pub.dev/material_color_utilities-0.11.1",
       "packageUri": "lib/",
       "languageVersion": "2.17"
+    },
+    {
+      "name": "maybe_just_nothing",
+      "rootUri": "file:///C:/Users/Hamza/AppData/Local/Pub/Cache/hosted/pub.dev/maybe_just_nothing-0.5.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "meta",
@@ -414,6 +432,12 @@
       "rootUri": "file:///C:/Users/Hamza/AppData/Local/Pub/Cache/hosted/pub.dev/purchases_flutter-8.1.2",
       "packageUri": "lib/",
       "languageVersion": "2.15"
+    },
+    {
+      "name": "rfc_6901",
+      "rootUri": "file:///C:/Users/Hamza/AppData/Local/Pub/Cache/hosted/pub.dev/rfc_6901-0.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "rxdart",
@@ -662,7 +686,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2024-12-07T00:42:13.880702Z",
+  "generated": "2024-12-07T00:56:49.374209Z",
   "generator": "pub",
   "generatorVersion": "3.5.4",
   "flutterRoot": "file:///C:/src/flutter/flutter",
