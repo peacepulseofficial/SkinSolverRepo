@@ -500,6 +500,12 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "stream_transform",
+      "rootUri": "file:///C:/Users/Hamza/AppData/Local/Pub/Cache/hosted/pub.dev/stream_transform-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
       "name": "string_scanner",
       "rootUri": "file:///C:/Users/Hamza/AppData/Local/Pub/Cache/hosted/pub.dev/string_scanner-1.2.0",
       "packageUri": "lib/",
@@ -632,7 +638,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2024-12-06T17:06:17.082854Z",
+  "generated": "2024-12-07T00:23:20.275275Z",
   "generator": "pub",
   "generatorVersion": "3.5.4",
   "flutterRoot": "file:///C:/src/flutter/flutter",
