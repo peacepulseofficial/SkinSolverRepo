@@ -16,7 +16,7 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
   app_tracking_transparency: ^2.0.6 # Added ATT dependency
-  adjust_sdk: ^5.0.2 # Added Adjust SDK
+  adjust_sdk: ^5.0.3 # Added Adjust SDK
   auto_size_text: 3.0.0
   cached_network_image: 3.4.1
   cloud_firestore: 5.4.4
