@@ -74,7 +74,10 @@ class _NightRoutineWidgetState extends State<NightRoutineWidget> {
                 : null;
 
         return GestureDetector(
-          onTap: () => FocusScope.of(context).unfocus(),
+          onTap: () {
+            FocusScope.of(context).unfocus();
+            FocusManager.instance.primaryFocus?.unfocus();
+          },
           child: Scaffold(
             key: scaffoldKey,
             backgroundColor: const Color(0xFAFF6A73),
@@ -728,7 +731,10 @@ class _NightRoutineWidgetState extends State<NightRoutineWidget> {
                             context: context,
                             builder: (context) {
                               return GestureDetector(
-                                onTap: () => FocusScope.of(context).unfocus(),
+                                onTap: () {
+                                  FocusScope.of(context).unfocus();
+                                  FocusManager.instance.primaryFocus?.unfocus();
+                                },
                                 child: Padding(
                                   padding: MediaQuery.viewInsetsOf(context),
                                   child: const SizedBox(

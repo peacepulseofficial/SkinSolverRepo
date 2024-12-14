@@ -74,7 +74,10 @@ class _MorningRoutineWidgetState extends State<MorningRoutineWidget> {
                 : null;
 
         return GestureDetector(
-          onTap: () => FocusScope.of(context).unfocus(),
+          onTap: () {
+            FocusScope.of(context).unfocus();
+            FocusManager.instance.primaryFocus?.unfocus();
+          },
           child: Scaffold(
             key: scaffoldKey,
             backgroundColor: FlutterFlowTheme.of(context).secondary,
@@ -728,7 +731,10 @@ class _MorningRoutineWidgetState extends State<MorningRoutineWidget> {
                             context: context,
                             builder: (context) {
                               return GestureDetector(
-                                onTap: () => FocusScope.of(context).unfocus(),
+                                onTap: () {
+                                  FocusScope.of(context).unfocus();
+                                  FocusManager.instance.primaryFocus?.unfocus();
+                                },
                                 child: Padding(
                                   padding: MediaQuery.viewInsetsOf(context),
                                   child: const SizedBox(
